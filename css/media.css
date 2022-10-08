@@ -1,0 +1,54 @@
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 360px) {
+    .container {
+        width: 90%;
+    }
+
+    .header h1 {
+        font-size: 24px;
+    }
+
+    .header-end a {
+        margin-left: 10px;
+        width: 100px;
+    }
+
+    .header-end {
+        font-size: 24px;
+        margin-right: 20px;
+    }
+
+    .hero-one {
+        flex-direction: column;
+    }
+
+    .red {
+        display: block;
+        padding: 30px 0;
+    }
+    .footer-end{
+        padding: 20px 0;
+    }
+
+    .content-top {
+        display: block !important;
+    }
+
+    .block2 {
+        display: block;
+        width: 90%;
+    }
+
+    .footer2 {
+        display: block;
+        padding-bottom: 30px;
+    }
+
+
+}
